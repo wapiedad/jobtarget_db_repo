@@ -1,8 +1,8 @@
 ﻿/*
 This procedure is intended to capture results of scan density 
-
+this is ttesing only this will be testing only
 */ 
-Create   PROCEDURE [dbo].[usp_scan_index_fragmentaton]
+CREATE   PROCEDURE [dbo].[usp_scan_index_fragmentaton]
 (
  @TableName sysname = NULL,
  @ScanDensity  tinyint  = 100
